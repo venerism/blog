@@ -3,7 +3,7 @@ $type: #fff;
 @import url('https://rsms.me/inter/inter-ui.css');
 
 html{
-padding: 0.5em 0.5em 0.5em 0.5em;
+padding: 0.7em 0.7em 0.7em 0.7em;
 background-color:$background-blue;
 font-family: 'Inter UI', sans-serif;
 }
@@ -11,6 +11,6 @@ body{
 max-width: 1140px;
 }
 
-h1{
+h1,h2,p{
 color:$type;
 }
