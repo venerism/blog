@@ -1,0 +1,13 @@
+@import url("https://rsms.me/inter/inter-ui.css");
+html {
+  padding: 0.5em 0.5em 0.5em 0.5em;
+  background-color: #1F1F25;
+  font-family: 'Inter UI', sans-serif; }
+
+body {
+  max-width: 1140px; }
+
+h1 {
+  color: #fff; }
+
+/*# sourceMappingURL=master.css.map */
