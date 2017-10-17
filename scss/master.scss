@@ -1,0 +1,29 @@
+$background-black:#1E1C27;
+$white:#FFF;
+@import url('https://rsms.me/inter/inter-ui.css');
+
+html{
+  background-color:$background-black;
+  font-family: 'Inter UI', sans-serif;
+}
+
+body{
+  padding: 0.8em 0.8em 0.8em 0.8em;
+}
+
+content{
+max-width: 1440px;
+}
+
+h1{
+  font-size: 2em;
+}
+
+h1,h2,p,span{
+  color:$white;
+}
+
+article{
+  color:$white;
+  margin:2em auto;
+}
