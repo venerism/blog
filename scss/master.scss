@@ -1,29 +1,21 @@
-$background-black:#1E1C27;
-$white:#FFF;
-@import url('https://rsms.me/inter/inter-ui.css');
+@import url("https://rsms.me/inter/inter-ui.css");
+html {
+  background-color: #1E1C27;
+  font-family: 'Inter UI', sans-serif; }
 
-html{
-  background-color:$background-black;
-  font-family: 'Inter UI', sans-serif;
-}
+body {
+  padding: 0.8em 0.8em 0.8em 0.8em; }
 
-body{
-  padding: 0.8em 0.8em 0.8em 0.8em;
-}
+content {
+  max-width: 1440px; }
 
-content{
-max-width: 1440px;
-}
+h1 {
+  font-size: 2em; }
 
-h1{
-  font-size: 2em;
-}
+h1, h2, p, span {
+  color: #FFF; }
 
-h1,h2,p,span{
-  color:$white;
-}
-
-article{
-  color:$white;
-  margin:2em auto;
-}
+article {
+  color: #FFF;
+  margin: 2em auto; }
+  
