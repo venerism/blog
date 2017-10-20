@@ -4,19 +4,32 @@ html {
   font-family: 'Inter UI', sans-serif; }
 
 body {
-  padding: 0.8em 0.8em 0.8em 0.8em; }
+  padding: 0.8em 2em 0.8em 2em; }
 
 content {
   max-width: 1440px; }
 
 h1 {
-  font-size: 2em; }
+  font-size: 2em;
+  margin-bottom: 0.2em; }
 
 h1, h2, p, span {
   color: #FFF; }
 
+header {
+  color: #FFF;
+  margin: 0em 2em 0em 2em;
+  min-height: 120px; }
+
 article {
   color: #FFF;
-  margin: 2em auto; }
+  margin: 2.2em 2em 2.2em 2em;
+  min-height: 400px; }
+  article h2 {
+    font-size: 0.8em;
+    color: #F77876; }
+  article p {
+    font-size: 1.8em;
+    font-weight: 300; }
 
 /*# sourceMappingURL=master.css.map */
