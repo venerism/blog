@@ -1,9 +1,10 @@
 @import url("https://rsms.me/inter/inter-ui.css");
 html {
-  background-color: #1E1C27;
   font-family: 'Inter UI', sans-serif; }
 
 body {
+  margin: 0 0 0 0;
+  background-color: #1E1C27;
   padding: 0.8em 2em 0.8em 2em; }
 
 content {
@@ -20,11 +21,14 @@ header {
   color: #FFF;
   margin: 0em 2em 0em 2em;
   min-height: 120px; }
+  header span {
+    font-size: 0.8em;
+    letter-spacing: 0.2em; }
 
 article {
   color: #FFF;
-  margin: 2.2em 2em 2.2em 2em;
-  min-height: 400px; }
+  margin: 2.2em 2em 3em 2em;
+  min-height: 460px; }
   article h2 {
     font-size: 0.8em;
     color: #F77876; }
