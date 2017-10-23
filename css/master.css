@@ -35,5 +35,8 @@ article {
   article p {
     font-size: 1.6em;
     font-weight: 300; }
+  article li {
+    font-size: 0.9em;
+    margin: 0.95em 0 0.95em 0; }
 
 /*# sourceMappingURL=master.css.map */
