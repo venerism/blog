@@ -26,6 +26,9 @@ header {
     letter-spacing: 0.2em; }
 
 article {
+  display: flex;
+  flex-direction: column;
+  border: red solid 1px;
   color: #FFF;
   margin: 2.2em 2em 2.2em 2em;
   min-height: 300px; }
@@ -39,5 +42,23 @@ article {
   article li {
     font-size: 0.9em;
     margin: 0.95em 0 0.95em 0; }
+  article aside {
+    border: blue solid 1px;
+    display: flex;
+    flex-direction: row;
+    padding: 1em 1em 1em 1em;
+    justify-content: space-around; }
+    article aside section {
+      padding: 1em 1em 1em 1em;
+      border: green solid 1px; }
+
+a {
+  text-decoration: none;
+  font-size: 2em;
+  color: #F77876;
+  font-style: normal; }
+
+a:hover {
+  color: white; }
 
 /*# sourceMappingURL=master.css.map */
