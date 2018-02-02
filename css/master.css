@@ -28,7 +28,6 @@ header {
 article {
   display: flex;
   flex-direction: column;
-  border: red solid 1px;
   color: #FFF;
   margin: 2.2em 2em 2.2em 2em;
   min-height: 300px; }
@@ -43,7 +42,6 @@ article {
     font-size: 0.9em;
     margin: 0.95em 0 0.95em 0; }
   article aside {
-    border: blue solid 1px;
     display: flex;
     flex-direction: row;
     padding: 1em 1em 1em 1em;
