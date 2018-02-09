@@ -1,0 +1,43 @@
+
+html {
+  font-family: 'Inter UI', sans-serif; }
+
+body {
+  margin: 0 0 0 0;
+  background-color: #1E1C27;
+  padding: 0.8em 2em 0.8em 2em; }
+
+content {
+  max-width: 1440px;
+}
+
+header{
+    color: #FFF;
+    margin: 0em 2em 0em 2em;
+    min-height: 120px;
+    span{
+      font-size: 0.8em;
+      letter-spacing: 0.2em;
+    }
+    }
+
+    article {
+      display: flex;
+      flex-direction: column;
+      color: #FFF;
+      margin: 2.2em 2em 2.2em 2em;
+      min-height: 300px;
+
+
+        aside{
+          display: flex;
+          flex-direction: row;
+          padding: 1em 1em 1em 1em;
+          justify-content: space-around;
+       section{
+         padding: 1em 1em 1em 1em;
+         border: green solid 1px;
+       }
+
+        }
+    }
