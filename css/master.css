@@ -1,30 +1,31 @@
 @import url("https://rsms.me/inter/inter-ui.css");
-html {
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300");
+h1, h2 {
   font-family: 'Inter UI', sans-serif; }
 
 h1 {
-  font-size: 2em;
+  text-transform: capitalize;
+  font-weight: 100;
+  color: #3E3535;
+  font-size: 1.5em;
   margin-bottom: 0.2em; }
 
 h2 {
-  font-size: 0.8em; }
-
-p {
-  font-size: 1.2em;
-  font-weight: 300;
-  line-height: 1.2em; }
+  font-size: 0.8em;
+  color: #3E3535; }
 
 a {
   text-decoration: none;
-  font-size: 2em;
-  font-style: normal; }
+  font-size: 3em;
+  font-style: normal;
+  font-family: 'Roboto Mono', monospace; }
 
 a:hover {
   color: white; }
 
 body {
   margin: 0 0 0 0;
-  background-color: #1E1C27;
+  background-color: #FAFAFA;
   padding: 0.8em 2em 0.8em 2em; }
 
 content {
@@ -34,23 +35,10 @@ header {
   color: #FFF;
   margin: 0em 2em 0em 2em;
   min-height: 120px; }
-  header span {
-    font-size: 0.8em;
-    letter-spacing: 0.2em; }
 
-article {
-  display: flex;
-  flex-direction: column;
-  color: #FFF;
-  margin: 2.2em 2em 2.2em 2em;
-  min-height: 300px; }
-  article aside {
-    display: flex;
-    flex-direction: row;
-    padding: 1em 1em 1em 1em;
-    justify-content: space-around; }
-    article aside section {
-      padding: 1em 1em 1em 1em;
-      border: green solid 1px; }
+article.links {
+  margin: 0 1em 0 0em; }
+  article.links ul {
+    list-style: none; }
 
 /*# sourceMappingURL=master.css.map */
