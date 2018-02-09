@@ -1,5 +1,5 @@
 @import url("https://rsms.me/inter/inter-ui.css");
-
+@import 'typography';
 
 $highlight: #F77876;
 
@@ -17,12 +17,7 @@ content {
 
 //---------------------
 
-h1 {
-  font-size: 2em;
-  margin-bottom: 0.2em}
 
-h1, h2, p, span {
-  color: #FFF; }
 
 header{
     color: #FFF;
@@ -39,19 +34,7 @@ article {
   color: #FFF;
   margin: 2.2em 2em 2.2em 2em;
   min-height: 300px;
-    h2{
-      font-size: 0.8em;
-      color: #F77876;
-    }
-    p{
-      font-size: 1.2em;
-      font-weight:300;
-      line-height: 1.2em;
-    }
-    li{
-      font-size: 0.9em;
-      margin: 0.95em 0 0.95em 0;
-    }
+
 
     aside{
       display: flex;
