@@ -6,26 +6,30 @@
 
 h1, h2{
     font-family: 'Inter UI', sans-serif;
+    color: $dark;
 }
 
-h1 {
-  text-transform: capitalize;
-  font-weight: 100;
-  color: $dark;
-  font-size: 1.5em;
-  margin-bottom: 0.2em}
-
-h2{
+  h1 {
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 1.5em;
+    margin-bottom: 0.2em
+    }
+  h2 {
     font-size: 0.8em;
-    color: $dark;
-  }
+    }
 
-  a{
+  a {
+    color: $link;
     text-decoration: none;
     font-size: 3em;
     font-style: normal;
     font-family: 'Roboto Mono', monospace;
   }
+  a:visited, a:active{
+    color:$link;
+  }
+
   a:hover{
-    color: white;
+    color: $highlight;
   }
