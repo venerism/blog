@@ -2,26 +2,26 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300");
 h1, h2 {
   font-family: 'Inter UI', sans-serif;
-  color: #3E3535; }
+  color: #3E3535;
+  font-weight: 100;
+  margin-bottom: 0.2em; }
 
 h1 {
   text-transform: capitalize;
-  font-weight: 100;
-  font-size: 1.5em;
-  margin-bottom: 0.2em; }
+  font-size: 1.5em; }
 
 h2 {
   font-size: 0.8em; }
 
-a {
+a, a:visited, a:active {
   color: #0011FF;
   text-decoration: none;
   font-size: 3em;
   font-style: normal;
   font-family: 'Roboto Mono', monospace; }
 
-a:visited, a:active {
-  color: #0011FF; }
+a.undone {
+  text-decoration: line-through; }
 
 a:hover {
   color: #FF3769; }
@@ -40,7 +40,8 @@ header {
   min-height: 120px; }
 
 article.links {
-  margin: 0 1em 0 0em; }
+  min-height: 800px;
+  margin: 0 1em 2em 0em; }
   article.links ul {
     list-style: none; }
 
