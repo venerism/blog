@@ -1,4 +1,5 @@
 @import "mixins";
+@import 'typography';
 
 article.container{
 display: flex;
@@ -8,6 +9,51 @@ margin: 0;
 //border: red solid 1px;
 justify-content: flex-start;
 padding: 0;
+align-content: flex-start;
+}
+
+div.boxes{
+  margin: 0;
+  padding: 0;
+}
+
+section.project_details{
+  min-height: 200px;
+  min-width: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border: 1px solid red;
+  blockquote{
+    border: 1px solid blue;
+    max-width: 400px;
+    height: 200px;
+    font-family: 'Inter UI', sans-serif;
+    font-size: 0.8em;
+  }
+  @include for-phone-only{
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  blockquote{
+    border: 1px solid blue;
+    font-family: 'Inter UI', sans-serif;
+    font-size: 0.8em;
+  }
+}
+@include for-tablet-portait-up{
+margin: 0;
+padding: 0;
+}
+@include for-tablet-landscape-up{
+  margin:0;
+  padding:0;
+}
+@include for-desktop{
+  margin:0;
+  padding: 0;
 }
 
 aside.cart_1{
@@ -22,9 +68,13 @@ aside.cart_1{
   padding: 1em;
   margin: 2em 1em 2em 1em;
   @include for-phone-only{
-  min-height: 400px;
   margin: 0;
   padding: 0;
+}
+@include for-tablet-portait-up{}
+margin: 0;
+padding: 0;
+
 }
 
 }
@@ -40,10 +90,14 @@ aside.cart_2{
   padding: 1em;
   margin: 2em 1em 2em 1em;
   @include for-phone-only{
-  min-height: 400px;
   margin: 0;
   padding: 0;
-  }
+}
+@include for-tablet-portait-up{}
+margin: 0;
+padding: 0;
+
+}
 }
 
 aside.cart_web{
@@ -57,10 +111,14 @@ aside.cart_web{
   padding: 1em;
   margin: 2em 1em 2em 1em;
   @include for-phone-only{
-  min-height: 400px;
   margin: 0;
   padding: 0;
-  }
+}
+@include for-tablet-portait-up{}
+margin: 0;
+padding: 0;
+
+}
 }
 
 aside.delivery_web{
@@ -74,10 +132,14 @@ aside.delivery_web{
   padding: 1em;
   margin: 2em 1em 2em 1em;
   @include for-phone-only{
-  min-height: 400px;
   margin: 0;
   padding: 0;
-  }
+}
+@include for-tablet-portait-up{}
+margin: 0;
+padding: 0;
+
+}
 }
 
 aside.item_web{
@@ -91,10 +153,14 @@ aside.item_web{
   padding: 1em;
   margin: 2em 1em 2em 1em;
   @include for-phone-only{
-  min-height: 400px;
   margin: 0;
   padding: 0;
-  }
+}
+@include for-tablet-portait-up{}
+margin: 0;
+padding: 0;
+
+}
 }
 
 aside.main{
@@ -108,10 +174,14 @@ aside.main{
   padding: 1em;
   margin: 2em 1em 2em 1em;
   @include for-phone-only{
-  min-height: 400px;
   margin: 0;
   padding: 0;
-  }
+}
+@include for-tablet-portait-up{}
+margin: 0;
+padding: 0;
+
+}
 }
 
 aside.notification{
@@ -125,10 +195,14 @@ aside.notification{
   padding: 1em;
   margin: 2em 1em 2em 1em;
   @include for-phone-only{
-  min-height: 400px;
   margin: 0;
   padding: 0;
-  }
+}
+@include for-tablet-portait-up{}
+margin: 0;
+padding: 0;
+
+}
 }
 
 aside.notification_web{
@@ -142,10 +216,14 @@ aside.notification_web{
   padding: 1em;
   margin: 2em 1em 2em 1em;
   @include for-phone-only{
-  min-height: 400px;
   margin: 0;
   padding: 0;
-  }
+}
+@include for-tablet-portait-up{}
+margin: 0;
+padding: 0;
+
+}
 }
 
 aside.orders_web{
@@ -159,10 +237,14 @@ aside.orders_web{
   padding: 1em;
   margin: 2em 1em 2em 1em;
   @include for-phone-only{
-  min-height: 400px;
   margin: 0;
   padding: 0;
-  }
+}
+@include for-tablet-portait-up{}
+margin: 0;
+padding: 0;
+
+}
 }
 
 aside.orders{
@@ -176,10 +258,14 @@ aside.orders{
   padding: 1em;
   margin: 2em 1em 2em 1em;
   @include for-phone-only{
-  min-height: 400px;
   margin: 0;
   padding: 0;
-  }
+}
+@include for-tablet-portait-up{}
+margin: 0;
+padding: 0;
+
+}
 }
 
 aside.profile_web{
@@ -193,10 +279,14 @@ aside.profile_web{
   padding: 1em;
   margin: 2em 1em 2em 1em;
   @include for-phone-only{
-  min-height: 400px;
   margin: 0;
   padding: 0;
-  }
+}
+@include for-tablet-portait-up{}
+margin: 0;
+padding: 0;
+
+}
 }
 
 aside.sneakers{
@@ -210,10 +300,14 @@ aside.sneakers{
   padding: 1em;
   margin: 2em 1em 2em 1em;
   @include for-phone-only{
-  min-height: 400px;
   margin: 0;
   padding: 0;
-  }
+}
+@include for-tablet-portait-up{}
+margin: 0;
+padding: 0;
+
+}
 }
 
 aside.wishlist_web{
@@ -227,10 +321,14 @@ aside.wishlist_web{
   padding: 1em;
   margin: 2em 1em 2em 1em;
   @include for-phone-only{
-  min-height: 400px;
   margin: 0;
   padding: 0;
-  }
+}
+@include for-tablet-portait-up{}
+margin: 0;
+padding: 0;
+
+}
 }
 
 aside.wishlist{
@@ -244,8 +342,12 @@ aside.wishlist{
   padding: 1em;
   margin: 2em 1em 2em 1em;
   @include for-phone-only{
-  min-height: 400px;
   margin: 0;
   padding: 0;
-  }
+}
+@include for-tablet-portait-up{}
+margin: 0;
+padding: 0;
+
+}
 }
