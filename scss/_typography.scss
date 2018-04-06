@@ -2,17 +2,21 @@
 @import url("https://rsms.me/inter/inter-ui.css");
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300');
 @import 'colours';
-
+@import 'mixins';
 
 h1, h2{
     font-family: 'Inter UI', sans-serif;
     color: $dark;
     font-weight: 100;
     margin-bottom: 0.2em;
+
 }
   h1 {
     text-transform: capitalize;
     font-size: 1.5em;
+      @include for-phone-only{
+        font-size: 0.5em;
+      }
     }
   h2 {
     font-size: 0.8em;
@@ -24,6 +28,13 @@ h1, h2{
     font-size: 3em;
     font-style: normal;
     font-family: 'Roboto Mono', monospace;
+    @include for-phone-only{
+      border-bottom: 1px solid $link;
+      font-size: 2em;
+      text-align: center;
+      text-indent: 0.5em;
+    }
+
   }
 
  a.undone{

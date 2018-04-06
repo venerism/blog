@@ -29,4 +29,9 @@ article.links{
     ul{
       list-style: none;
     }
+    li{
+      @include for-phone-only{
+        padding-bottom: 1.5em;
+      }
+    }
 }

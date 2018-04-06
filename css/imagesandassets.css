@@ -9,6 +9,9 @@ h1, h2 {
 h1 {
   text-transform: capitalize;
   font-size: 1.5em; }
+  @media (max-width: 599px) {
+    h1 {
+      font-size: 0.5em; } }
 
 h2 {
   font-size: 0.8em; }
@@ -19,6 +22,12 @@ a, a:visited, a:active {
   font-size: 3em;
   font-style: normal;
   font-family: 'Roboto Mono', monospace; }
+  @media (max-width: 599px) {
+    a, a:visited, a:active {
+      border-bottom: 1px solid #0011FF;
+      font-size: 2em;
+      text-align: center;
+      text-indent: 0.5em; } }
 
 a.undone {
   text-decoration: line-through; }
