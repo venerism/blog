@@ -42,294 +42,90 @@ article.container {
   padding: 0;
   align-content: flex-start; }
 
-div.boxes {
-  margin: 0;
-  padding: 0; }
-
-section.project_details {
-  min-height: 200px;
-  min-width: 300px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  border: 1px solid red; }
-  section.project_details blockquote {
-    border: 1px solid blue;
-    max-width: 400px;
-    height: 200px;
-    font-family: 'Inter UI', sans-serif;
-    font-size: 0.8em; }
+aside.cart_1, aside.cart_2,
+aside.cart_web, aside.delivery_web,
+aside.item_web, aside.main, aside.notification,
+aside.notification_web, aside.orders, aside.orders_web,
+aside.profile_web, aside.sneakers, aside.wishlist_web,
+aside.wishlist {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 100%;
+  min-height: 800px;
+  padding: 1em;
+  margin: 2em 1em 2em 1em; }
   @media (max-width: 599px) {
-    section.project_details {
-      align-items: center;
-      justify-content: space-around;
-      flex-direction: column;
+    aside.cart_1, aside.cart_2,
+    aside.cart_web, aside.delivery_web,
+    aside.item_web, aside.main, aside.notification,
+    aside.notification_web, aside.orders, aside.orders_web,
+    aside.profile_web, aside.sneakers, aside.wishlist_web,
+    aside.wishlist {
       margin: 0;
-      padding: 0; }
-      section.project_details blockquote {
-        border: 1px solid blue;
-        font-family: 'Inter UI', sans-serif;
-        font-size: 0.8em; } }
+      padding: 2em 1em 2em 1em;
+      min-height: 300px; } }
   @media (min-width: 600px) {
-    section.project_details {
+    aside.cart_1, aside.cart_2,
+    aside.cart_web, aside.delivery_web,
+    aside.item_web, aside.main, aside.notification,
+    aside.notification_web, aside.orders, aside.orders_web,
+    aside.profile_web, aside.sneakers, aside.wishlist_web,
+    aside.wishlist {
       margin: 0;
-      padding: 0; } }
-  @media (min-width: 900px) {
-    section.project_details {
-      margin: 0;
-      padding: 0; } }
+      padding: 2em 1em 2em 1em;
+      max-height: 600px; } }
   @media (min-width: 1200px) {
-    section.project_details {
+    aside.cart_1, aside.cart_2,
+    aside.cart_web, aside.delivery_web,
+    aside.item_web, aside.main, aside.notification,
+    aside.notification_web, aside.orders, aside.orders_web,
+    aside.profile_web, aside.sneakers, aside.wishlist_web,
+    aside.wishlist {
       margin: 0;
-      padding: 0; } }
-  section.project_details aside.cart_1 {
-    background-image: url("../img/cart_1.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    max-width: 100%;
-    min-height: 800px;
-    padding: 1em;
-    margin: 2em 1em 2em 1em;
-    margin: 0;
-    padding: 0; }
-    @media (max-width: 599px) {
-      section.project_details aside.cart_1 {
-        margin: 0;
-        padding: 0; } }
+      padding: 2em 1em 2em 1em;
+      min-height: 1200px; } }
+
+aside.cart_1 {
+  background-image: url("../img/cart_1.png"); }
 
 aside.cart_2 {
-  background-image: url("../img/cart_2.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em; }
-  @media (max-width: 599px) {
-    aside.cart_2 {
-      margin: 0;
-      padding: 0; } }
-  @media (min-width: 600px) {
-    aside.cart_2 {
-      margin: 0;
-      padding: 0; } }
+  background-image: url("../img/cart_2.png"); }
 
 aside.cart_web {
-  background-image: url("../img/cart_web.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em; }
-  @media (max-width: 599px) {
-    aside.cart_web {
-      margin: 0;
-      padding: 0; } }
-  @media (min-width: 600px) {
-    aside.cart_web {
-      margin: 0;
-      padding: 0; } }
+  background-image: url("../img/cart_web.png"); }
 
 aside.delivery_web {
-  background-image: url("../img/delivery_web.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em; }
-  @media (max-width: 599px) {
-    aside.delivery_web {
-      margin: 0;
-      padding: 0; } }
-  @media (min-width: 600px) {
-    aside.delivery_web {
-      margin: 0;
-      padding: 0; } }
+  background-image: url("../img/delivery_web.png"); }
 
 aside.item_web {
-  background-image: url("../img/item_web.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em; }
-  @media (max-width: 599px) {
-    aside.item_web {
-      margin: 0;
-      padding: 0; } }
-  @media (min-width: 600px) {
-    aside.item_web {
-      margin: 0;
-      padding: 0; } }
+  background-image: url("../img/item_web.png"); }
 
 aside.main {
-  background-image: url("../img/main.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em; }
-  @media (max-width: 599px) {
-    aside.main {
-      margin: 0;
-      padding: 0; } }
-  @media (min-width: 600px) {
-    aside.main {
-      margin: 0;
-      padding: 0; } }
+  background-image: url("../img/main.png"); }
 
 aside.notification {
-  background-image: url("../img/notification.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em; }
-  @media (max-width: 599px) {
-    aside.notification {
-      margin: 0;
-      padding: 0; } }
-  @media (min-width: 600px) {
-    aside.notification {
-      margin: 0;
-      padding: 0; } }
+  background-image: url("../img/notification.png"); }
 
 aside.notification_web {
-  background-image: url("../img/notifications_web.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em; }
-  @media (max-width: 599px) {
-    aside.notification_web {
-      margin: 0;
-      padding: 0; } }
-  @media (min-width: 600px) {
-    aside.notification_web {
-      margin: 0;
-      padding: 0; } }
+  background-image: url("../img/notification_web.png"); }
 
 aside.orders_web {
-  background-image: url("../img/orders_web.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em; }
-  @media (max-width: 599px) {
-    aside.orders_web {
-      margin: 0;
-      padding: 0; } }
-  @media (min-width: 600px) {
-    aside.orders_web {
-      margin: 0;
-      padding: 0; } }
+  background-image: url("../img/orders_web.png"); }
 
 aside.orders {
-  background-image: url("../img/orders.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em; }
-  @media (max-width: 599px) {
-    aside.orders {
-      margin: 0;
-      padding: 0; } }
-  @media (min-width: 600px) {
-    aside.orders {
-      margin: 0;
-      padding: 0; } }
+  background-image: url("../img/orders.png"); }
 
 aside.profile_web {
-  background-image: url("../img/profile_web.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em; }
-  @media (max-width: 599px) {
-    aside.profile_web {
-      margin: 0;
-      padding: 0; } }
-  @media (min-width: 600px) {
-    aside.profile_web {
-      margin: 0;
-      padding: 0; } }
+  background-image: url("../img/profile_web.png"); }
 
 aside.sneakers {
-  background-image: url("../img/sneakers.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em; }
-  @media (max-width: 599px) {
-    aside.sneakers {
-      margin: 0;
-      padding: 0; } }
-  @media (min-width: 600px) {
-    aside.sneakers {
-      margin: 0;
-      padding: 0; } }
+  background-image: url("../img/sneakers.png"); }
 
 aside.wishlist_web {
-  background-image: url("../img/wishlist_web.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em; }
-  @media (max-width: 599px) {
-    aside.wishlist_web {
-      margin: 0;
-      padding: 0; } }
-  @media (min-width: 600px) {
-    aside.wishlist_web {
-      margin: 0;
-      padding: 0; } }
+  background-image: url("../img/wishlist_web.png"); }
 
 aside.wishlist {
-  background-image: url("../img/wishlist.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em; }
-  @media (max-width: 599px) {
-    aside.wishlist {
-      margin: 0;
-      padding: 0; } }
-  @media (min-width: 600px) {
-    aside.wishlist {
-      margin: 0;
-      padding: 0; } }
+  background-image: url("../img/wishlist.png"); }
 
 /*# sourceMappingURL=imagesandassets.css.map */

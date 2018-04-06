@@ -12,343 +12,50 @@ padding: 0;
 align-content: flex-start;
 }
 
-div.boxes{
-  margin: 0;
-  padding: 0;
-}
-
-section.project_details{
-  min-height: 200px;
-  min-width: 300px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  border: 1px solid red;
-  blockquote{
-    border: 1px solid blue;
-    max-width: 400px;
-    height: 200px;
-    font-family: 'Inter UI', sans-serif;
-    font-size: 0.8em;
-  }
-  @include for-phone-only{
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
-  blockquote{
-    border: 1px solid blue;
-    font-family: 'Inter UI', sans-serif;
-    font-size: 0.8em;
-  }
-}
-@include for-tablet-portait-up{
-margin: 0;
-padding: 0;
-}
-@include for-tablet-landscape-up{
-  margin:0;
-  padding:0;
-}
-@include for-desktop{
-  margin:0;
-  padding: 0;
-}
-
-aside.cart_1{
-
-  background-image: url("../img/cart_1.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  //border: 1px solid blue;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em;
-  @include for-phone-only{
-  margin: 0;
-  padding: 0;
-}
-@include for-tablet-portait-up{}
-margin: 0;
-padding: 0;
-
-}
-
-}
-
-aside.cart_2{
-  background-image: url("../img/cart_2.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  //border: 1px solid blue;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em;
-  @include for-phone-only{
-  margin: 0;
-  padding: 0;
-}
-@include for-tablet-portait-up{
-margin: 0;
-padding: 0;
-
-}
-}
-
-aside.cart_web{
-  background-image: url("../img/cart_web.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  //border: 1px solid blue;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em;
-  @include for-phone-only{
-  margin: 0;
-  padding: 0;
-}
-@include for-tablet-portait-up{
-margin: 0;
-padding: 0;
-
-}
-}
-
-
-aside.delivery_web{
-  background-image: url("../img/delivery_web.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  //border: 1px solid blue;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em;
-  @include for-phone-only{
-  margin: 0;
-  padding: 0;
-}
-@include for-tablet-portait-up{
-margin: 0;
-padding: 0;
-
-}
-}
-
-aside.item_web{
-  background-image: url("../img/item_web.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  //border: 1px solid blue;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em;
-  @include for-phone-only{
-  margin: 0;
-  padding: 0;
-}
-@include for-tablet-portait-up{
-margin: 0;
-padding: 0;
-
-}
-}
-
-aside.main{
-  background-image: url("../img/main.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  //border: 1px solid blue;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em;
-  @include for-phone-only{
-  margin: 0;
-  padding: 0;
-}
-@include for-tablet-portait-up{
-margin: 0;
-padding: 0;
-
-}
-}
-
-aside.notification{
-  background-image: url("../img/notification.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  //border: 1px solid blue;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em;
-  @include for-phone-only{
-  margin: 0;
-  padding: 0;
-}
-@include for-tablet-portait-up{
-margin: 0;
-padding: 0;
-
-}
-}
-
-aside.notification_web{
-  background-image: url("../img/notifications_web.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  //border: 1px solid blue;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em;
-  @include for-phone-only{
-  margin: 0;
-  padding: 0;
-}
-@include for-tablet-portait-up{
-margin: 0;
-padding: 0;
-
-}
-}
-
-aside.orders_web{
-  background-image: url("../img/orders_web.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  //border: 1px solid blue;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em;
-  @include for-phone-only{
-  margin: 0;
-  padding: 0;
-}
-@include for-tablet-portait-up{
-margin: 0;
-padding: 0;
-
-}
-}
-
-aside.orders{
-  background-image: url("../img/orders.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  //border: 1px solid blue;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em;
-  @include for-phone-only{
-  margin: 0;
-  padding: 0;
-}
-@include for-tablet-portait-up{
-margin: 0;
-padding: 0;
-
-}
-}
-
-aside.profile_web{
-  background-image: url("../img/profile_web.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  //border: 1px solid blue;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em;
-  @include for-phone-only{
-  margin: 0;
-  padding: 0;
-}
-@include for-tablet-portait-up{
-margin: 0;
-padding: 0;
-
-}
-}
-
-aside.sneakers{
-  background-image: url("../img/sneakers.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  //border: 1px solid blue;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em;
-  @include for-phone-only{
-  margin: 0;
-  padding: 0;
-}
-@include for-tablet-portait-up{
-margin: 0;
-padding: 0;
-
-}
-}
-
-aside.wishlist_web{
-  background-image: url("../img/wishlist_web.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  //border: 1px solid blue;
-  max-width: 100%;
-  min-height: 800px;
-  padding: 1em;
-  margin: 2em 1em 2em 1em;
-  @include for-phone-only{
-  margin: 0;
-  padding: 0;
-}
-@include for-tablet-portait-up{
-margin: 0;
-padding: 0;
-
-}
-}
-
+aside.cart_1, aside.cart_2,
+aside.cart_web,aside.delivery_web,
+aside.item_web,aside.main,aside.notification,
+aside.notification_web, aside.orders, aside.orders_web,
+aside.profile_web,aside.sneakers,aside.wishlist_web,
 aside.wishlist{
-  background-image: url("../img/wishlist.png");
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-//border: 1px solid blue;
   max-width: 100%;
   min-height: 800px;
   padding: 1em;
   margin: 2em 1em 2em 1em;
+
   @include for-phone-only{
-  margin: 0;
-  padding: 0;
-}
-@include for-tablet-portait-up{
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 2em 1em 2em 1em;
+    min-height: 300px;
+    }
+  @include for-tablet-portait-up{
+    margin: 0;
+    padding: 2em 1em 2em 1em;
+    max-height: 600px;
+    }
+  @include for-desktop{
+    margin: 0;
+    padding: 2em 1em 2em 1em;
+    min-height: 1200px;
+  }
 
 }
-}
+
+aside.cart_1{background-image: url("../img/cart_1.png");}
+aside.cart_2{background-image: url("../img/cart_2.png");}
+aside.cart_web{background-image: url("../img/cart_web.png");}
+aside.delivery_web{background-image: url("../img/delivery_web.png");}
+aside.item_web{background-image: url("../img/item_web.png");}
+aside.main{background-image: url("../img/main.png");}
+aside.notification{background-image: url("../img/notification.png");}
+aside.notification_web{background-image: url("../img/notification_web.png");}
+aside.orders_web{background-image: url("../img/orders_web.png");}
+aside.orders{background-image: url("../img/orders.png");}
+aside.profile_web{background-image: url("../img/profile_web.png");}
+aside.sneakers{background-image: url("../img/sneakers.png");}
+aside.wishlist_web{background-image: url("../img/wishlist_web.png");}
+aside.wishlist{background-image: url("../img/wishlist.png");}
