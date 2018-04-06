@@ -341,7 +341,13 @@ aside.dropbox {
     font-family: 'Inter UI', sans-serif;
     font-weight: bold; }
 
-aside.vimeo, aside.dropbox {
+aside.design-brief {
+  background-image: url("../img/design_brief.png"); }
+
+aside.competitive-analysis {
+  background-image: url("../img/competitive_analysis.png"); }
+
+aside.vimeo, aside.dropbox, aside.design-brief, aside.competitive-analysis {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -350,17 +356,17 @@ aside.vimeo, aside.dropbox {
   padding: 1em;
   margin: 2em 1em 2em 1em; }
   @media (max-width: 599px) {
-    aside.vimeo, aside.dropbox {
+    aside.vimeo, aside.dropbox, aside.design-brief, aside.competitive-analysis {
       margin: 0;
       padding: 2em 1em 2em 1em;
       min-height: 300px; } }
   @media (min-width: 600px) {
-    aside.vimeo, aside.dropbox {
+    aside.vimeo, aside.dropbox, aside.design-brief, aside.competitive-analysis {
       margin: 0;
       padding: 2em 1em 2em 1em;
       max-height: 600px; } }
   @media (min-width: 1200px) {
-    aside.vimeo, aside.dropbox {
+    aside.vimeo, aside.dropbox, aside.design-brief, aside.competitive-analysis {
       margin: 0;
       padding: 2em 1em 2em 1em; } }
 

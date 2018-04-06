@@ -27,9 +27,16 @@ aside.dropbox{
   }
 }
 
+aside.design-brief{
+  background-image:url("../img/design_brief.png");
+}
+aside.competitive-analysis{
+  background-image:url("../img/competitive_analysis.png");
+}
 
 
-aside.vimeo, aside.dropbox{
+
+aside.vimeo, aside.dropbox, aside.design-brief, aside.competitive-analysis{
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
