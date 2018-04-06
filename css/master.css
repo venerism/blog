@@ -351,7 +351,8 @@ article.container {
 
 aside.purpose, aside.prioritising_solutions,
 aside.understanding_users, aside.personas,
-aside.crystal_flowchart, aside.david_flowchart {
+aside.crystal_flowchart, aside.david_flowchart,
+aside.flowchart {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -362,21 +363,24 @@ aside.crystal_flowchart, aside.david_flowchart {
   @media (max-width: 599px) {
     aside.purpose, aside.prioritising_solutions,
     aside.understanding_users, aside.personas,
-    aside.crystal_flowchart, aside.david_flowchart {
+    aside.crystal_flowchart, aside.david_flowchart,
+    aside.flowchart {
       margin: 0;
       padding: 2em 1em 2em 1em;
       min-height: 300px; } }
   @media (min-width: 600px) {
     aside.purpose, aside.prioritising_solutions,
     aside.understanding_users, aside.personas,
-    aside.crystal_flowchart, aside.david_flowchart {
+    aside.crystal_flowchart, aside.david_flowchart,
+    aside.flowchart {
       margin: 0;
       padding: 2em 1em 2em 1em;
       max-height: 600px; } }
   @media (min-width: 1200px) {
     aside.purpose, aside.prioritising_solutions,
     aside.understanding_users, aside.personas,
-    aside.crystal_flowchart, aside.david_flowchart {
+    aside.crystal_flowchart, aside.david_flowchart,
+    aside.flowchart {
       margin: 0;
       padding: 2em 1em 2em 1em; } }
 
@@ -397,5 +401,8 @@ aside.crystal_flowchart {
 
 aside.david_flowchart {
   background-image: url("../img/david_flowchart.png"); }
+
+aside.flowchart {
+  background-image: url("../img/flowchart.png"); }
 
 /*# sourceMappingURL=master.css.map */
