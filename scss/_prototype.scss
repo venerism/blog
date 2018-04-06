@@ -1,0 +1,39 @@
+@import "mixins";
+@import 'typography';
+
+article.container{
+display: flex;
+flex-direction: column;
+max-width: 1440px;
+margin: 0;
+//border: red solid 1px;
+justify-content: flex-start;
+padding: 0;
+align-content: flex-start;
+}
+
+aside.vimeo{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  max-width: 100%;
+  min-height: 800px;
+  padding: 1em;
+  margin: 2em 1em 2em 1em;
+
+  @include for-phone-only{
+    margin: 0;
+    padding: 2em 1em 2em 1em;
+    min-height: 300px;
+    }
+  @include for-tablet-portait-up{
+    margin: 0;
+    padding: 2em 1em 2em 1em;
+    max-height: 600px;
+    }
+  @include for-desktop{
+    margin: 0;
+    padding: 2em 1em 2em 1em;
+  }
+
+}
