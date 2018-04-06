@@ -12,7 +12,24 @@ padding: 0;
 align-content: flex-start;
 }
 
-aside.vimeo{
+
+aside.dropbox{
+  display: flex;
+  background-image:url("../img/add_wishlist.png");
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: $link;
+  a{
+    font-size: 5em;
+    font-family: 'Inter UI', sans-serif;
+    font-weight: bold;
+  }
+}
+
+
+
+aside.vimeo, aside.dropbox{
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
