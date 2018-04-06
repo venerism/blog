@@ -1,0 +1,251 @@
+@import "mixins";
+
+article.container{
+display: flex;
+flex-direction: column;
+max-width: 1440px;
+margin: 0;
+//border: red solid 1px;
+justify-content: flex-start;
+padding: 0;
+}
+
+aside.cart_1{
+
+  background-image: url("../img/cart_1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  //border: 1px solid blue;
+  max-width: 100%;
+  min-height: 800px;
+  padding: 1em;
+  margin: 2em 1em 2em 1em;
+  @include for-phone-only{
+  min-height: 400px;
+  margin: 0;
+  padding: 0;
+}
+
+}
+
+aside.cart_2{
+  background-image: url("../img/cart_2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  //border: 1px solid blue;
+  max-width: 100%;
+  min-height: 800px;
+  padding: 1em;
+  margin: 2em 1em 2em 1em;
+  @include for-phone-only{
+  min-height: 400px;
+  margin: 0;
+  padding: 0;
+  }
+}
+
+aside.cart_web{
+  background-image: url("../img/cart_web.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  //border: 1px solid blue;
+  max-width: 100%;
+  min-height: 800px;
+  padding: 1em;
+  margin: 2em 1em 2em 1em;
+  @include for-phone-only{
+  min-height: 400px;
+  margin: 0;
+  padding: 0;
+  }
+}
+
+aside.delivery_web{
+  background-image: url("../img/delivery_web.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  //border: 1px solid blue;
+  max-width: 100%;
+  min-height: 800px;
+  padding: 1em;
+  margin: 2em 1em 2em 1em;
+  @include for-phone-only{
+  min-height: 400px;
+  margin: 0;
+  padding: 0;
+  }
+}
+
+aside.item_web{
+  background-image: url("../img/item_web.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  //border: 1px solid blue;
+  max-width: 100%;
+  min-height: 800px;
+  padding: 1em;
+  margin: 2em 1em 2em 1em;
+  @include for-phone-only{
+  min-height: 400px;
+  margin: 0;
+  padding: 0;
+  }
+}
+
+aside.main{
+  background-image: url("../img/main.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  //border: 1px solid blue;
+  max-width: 100%;
+  min-height: 800px;
+  padding: 1em;
+  margin: 2em 1em 2em 1em;
+  @include for-phone-only{
+  min-height: 400px;
+  margin: 0;
+  padding: 0;
+  }
+}
+
+aside.notification{
+  background-image: url("../img/notification.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  //border: 1px solid blue;
+  max-width: 100%;
+  min-height: 800px;
+  padding: 1em;
+  margin: 2em 1em 2em 1em;
+  @include for-phone-only{
+  min-height: 400px;
+  margin: 0;
+  padding: 0;
+  }
+}
+
+aside.notification_web{
+  background-image: url("../img/notifications_web.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  //border: 1px solid blue;
+  max-width: 100%;
+  min-height: 800px;
+  padding: 1em;
+  margin: 2em 1em 2em 1em;
+  @include for-phone-only{
+  min-height: 400px;
+  margin: 0;
+  padding: 0;
+  }
+}
+
+aside.orders_web{
+  background-image: url("../img/orders_web.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  //border: 1px solid blue;
+  max-width: 100%;
+  min-height: 800px;
+  padding: 1em;
+  margin: 2em 1em 2em 1em;
+  @include for-phone-only{
+  min-height: 400px;
+  margin: 0;
+  padding: 0;
+  }
+}
+
+aside.orders{
+  background-image: url("../img/orders.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  //border: 1px solid blue;
+  max-width: 100%;
+  min-height: 800px;
+  padding: 1em;
+  margin: 2em 1em 2em 1em;
+  @include for-phone-only{
+  min-height: 400px;
+  margin: 0;
+  padding: 0;
+  }
+}
+
+aside.profile_web{
+  background-image: url("../img/profile_web.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  //border: 1px solid blue;
+  max-width: 100%;
+  min-height: 800px;
+  padding: 1em;
+  margin: 2em 1em 2em 1em;
+  @include for-phone-only{
+  min-height: 400px;
+  margin: 0;
+  padding: 0;
+  }
+}
+
+aside.sneakers{
+  background-image: url("../img/sneakers.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  //border: 1px solid blue;
+  max-width: 100%;
+  min-height: 800px;
+  padding: 1em;
+  margin: 2em 1em 2em 1em;
+  @include for-phone-only{
+  min-height: 400px;
+  margin: 0;
+  padding: 0;
+  }
+}
+
+aside.wishlist_web{
+  background-image: url("../img/wishlist_web.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  //border: 1px solid blue;
+  max-width: 100%;
+  min-height: 800px;
+  padding: 1em;
+  margin: 2em 1em 2em 1em;
+  @include for-phone-only{
+  min-height: 400px;
+  margin: 0;
+  padding: 0;
+  }
+}
+
+aside.wishlist{
+  background-image: url("../img/wishlist.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+//border: 1px solid blue;
+  max-width: 100%;
+  min-height: 800px;
+  padding: 1em;
+  margin: 2em 1em 2em 1em;
+  @include for-phone-only{
+  min-height: 400px;
+  margin: 0;
+  padding: 0;
+  }
+}

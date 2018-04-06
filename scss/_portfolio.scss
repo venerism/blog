@@ -1,0 +1,42 @@
+@import 'layout';
+@import 'responsive';
+
+body.portfolio{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 0 0 0;
+  padding: 2em 2em 2em 2em;
+  border: 1px solid red;
+}
+
+
+header.portfolio{
+  display: flex;
+  flex-direction: row;
+  margin: 1em 1em 1em 1em;
+  border: blue solid 1px;
+  min-width: 1140px;
+}
+
+
+article.portfolio{
+  background-image:url(../img/InteractivitySketch-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+section.portfolio{
+  max-width: 1140px;
+  display: flex;
+  flex-direction: row;
+  border: solid 1px black;
+    aside.portfolio{
+      border: solid 1px red;
+      height: 100px;
+      width: 100px;
+    }
+}
