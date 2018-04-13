@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300");
 @import url("https://rsms.me/inter/inter-ui.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300");
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Inter UI', sans-serif;
   color: #3E3535;
   font-weight: 100;
@@ -34,6 +34,9 @@ a, a:visited, a:active {
       font-size: 2em;
       text-align: center;
       text-indent: 0.5em; } }
+
+ul {
+  padding: 0; }
 
 a.undone {
   text-decoration: line-through; }
@@ -141,7 +144,7 @@ section.portfolio {
     height: 100px;
     width: 100px; }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Inter UI', sans-serif;
   color: #3E3535;
   font-weight: 100;
@@ -169,6 +172,9 @@ a, a:visited, a:active {
       font-size: 2em;
       text-align: center;
       text-indent: 0.5em; } }
+
+ul {
+  padding: 0; }
 
 a.undone {
   text-decoration: line-through; }
@@ -278,7 +284,7 @@ aside.wishlist_web {
 aside.wishlist {
   background-image: url("../img/wishlist.png"); }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Inter UI', sans-serif;
   color: #3E3535;
   font-weight: 100;
@@ -306,6 +312,9 @@ a, a:visited, a:active {
       font-size: 2em;
       text-align: center;
       text-indent: 0.5em; } }
+
+ul {
+  padding: 0; }
 
 a.undone {
   text-decoration: line-through; }
@@ -376,7 +385,7 @@ aside.milya1, aside.milya2, aside.vimeo, aside.dropbox, aside.design-brief, asid
       margin: 0;
       padding: 2em 1em 2em 1em; } }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Inter UI', sans-serif;
   color: #3E3535;
   font-weight: 100;
@@ -404,6 +413,9 @@ a, a:visited, a:active {
       font-size: 2em;
       text-align: center;
       text-indent: 0.5em; } }
+
+ul {
+  padding: 0; }
 
 a.undone {
   text-decoration: line-through; }

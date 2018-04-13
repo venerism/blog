@@ -1,6 +1,6 @@
 @import url("https://rsms.me/inter/inter-ui.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300");
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Inter UI', sans-serif;
   color: #3E3535;
   font-weight: 100;
@@ -28,6 +28,9 @@ a, a:visited, a:active {
       font-size: 2em;
       text-align: center;
       text-indent: 0.5em; } }
+
+ul {
+  padding: 0; }
 
 a.undone {
   text-decoration: line-through; }

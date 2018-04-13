@@ -4,7 +4,7 @@
 @import 'colours';
 @import 'mixins';
 
-h1, h2{
+h1, h2, h3{
     font-family: 'Inter UI', sans-serif;
     color: $dark;
     font-weight: 100;
@@ -36,6 +36,11 @@ h1, h2{
     }
 
   }
+
+
+ul{
+  padding: 0;
+}
 
  a.undone{
    text-decoration: line-through;
